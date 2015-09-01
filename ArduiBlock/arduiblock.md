@@ -38,6 +38,6 @@
 
 ----
 + Exemple n°07 : Envoyer à l'ordinateur la valeur lu sur l'entrée analogique 0 et cliquer sur **"Serial Monitor"** après l'avoir transferé.
-* (en) Send to the computer the values read from analogue input 0 Make sure you click on "Serial Monitor" after you upload.
+* (en) Send to the computer the values read from analogue input 0 Make sure you click on "Serial Monitor" after you upload. > Page 79
 
 ---
