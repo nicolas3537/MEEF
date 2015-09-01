@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cb:CODEBLOCKS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://education.mit.edu/openblocks/ns http://education.mit.edu/openblocks/codeblocks.xsd" xmlns:cb="http://education.mit.edu/openblocks/ns">
+<Pages collapsible-pages="yes" drawer-with-page="yes">
+<Page page-color="40 40 40" page-drawer="ArduBlock" page-infullview="yes" page-name="ArduBlock" page-width="1600">
+<PageBlocks>
+<Block genus-name="delay" id="122">
+<Location>
+<X>114</X>
+<Y>97</Y>
+</Location>
+<BeforeBlockId>115</BeforeBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="123" connector-kind="socket" connector-type="number" init-type="number" label="Millisecondes" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="number" id="123">
+<Label>10</Label>
+<Location>
+<X>376</X>
+<Y>100</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="122" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="number" id="121">
+<Label>4</Label>
+<Location>
+<X>822</X>
+<Y>69</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="118" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="pin-read-analog" id="119">
+<Location>
+<X>434</X>
+<Y>69</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="118" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="single"/>
+</Plug>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="120" connector-kind="socket" connector-type="number" init-type="number" label="#" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="number" id="120">
+<Label>0</Label>
+<Location>
+<X>736</X>
+<Y>69</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="119" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="division" id="118">
+<Location>
+<X>424</X>
+<Y>66</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="115" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="119" connector-kind="socket" connector-type="number" init-type="number" label="" position-type="bottom"/>
+<BlockConnector con-block-id="121" connector-kind="socket" connector-type="number" init-type="number" label="" position-type="bottom"/>
+</Sockets>
+</Block>
+<Block genus-name="pin-write-analog" id="115">
+<Location>
+<X>114</X>
+<Y>39</Y>
+</Location>
+<BeforeBlockId>114</BeforeBlockId>
+<AfterBlockId>122</AfterBlockId>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="116" connector-kind="socket" connector-type="number" init-type="number" label="#" position-type="single"/>
+<BlockConnector con-block-id="118" connector-kind="socket" connector-type="number" init-type="number" label="" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="number" id="116">
+<Label>9</Label>
+<Location>
+<X>424</X>
+<Y>42</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="115" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="loop" id="114">
+<Location>
+<X>33</X>
+<Y>31</Y>
+</Location>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="115" connector-kind="socket" connector-type="cmd" init-type="cmd" label="do" position-type="single"/>
+</Sockets>
+</Block>
+</PageBlocks>
+</Page>
+</Pages>
+</cb:CODEBLOCKS>

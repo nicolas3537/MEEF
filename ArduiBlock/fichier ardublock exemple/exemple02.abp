@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cb:CODEBLOCKS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://education.mit.edu/openblocks/ns http://education.mit.edu/openblocks/codeblocks.xsd" xmlns:cb="http://education.mit.edu/openblocks/ns">
+<Pages collapsible-pages="yes" drawer-with-page="yes">
+<Page page-color="40 40 40" page-drawer="ArduBlock" page-infullview="yes" page-name="ArduBlock" page-width="1600">
+<PageBlocks>
+<Block genus-name="loop" id="237">
+<Location>
+<X>45</X>
+<Y>91</Y>
+</Location>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="238" connector-kind="socket" connector-type="cmd" init-type="cmd" label="do" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="ifelse" id="238">
+<Location>
+<X>126</X>
+<Y>99</Y>
+</Location>
+<BeforeBlockId>237</BeforeBlockId>
+<Sockets num-sockets="3">
+<BlockConnector con-block-id="239" connector-kind="socket" connector-type="boolean" init-type="boolean" label="Teste" position-type="single"/>
+<BlockConnector con-block-id="241" connector-kind="socket" connector-type="cmd" init-type="cmd" label="Alors éxecute.." position-type="single"/>
+<BlockConnector con-block-id="244" connector-kind="socket" connector-type="cmd" init-type="cmd" label="Sinon éxécute" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="pin-write-digital" id="244">
+<Location>
+<X>312</X>
+<Y>196</Y>
+</Location>
+<Comment>
+<Text>si non, éteindre la DEL</Text>
+<Location>
+<X>701</X>
+<Y>198</Y>
+</Location>
+<BoxSize>
+<Width>164</Width>
+<Height>52</Height>
+</BoxSize>
+</Comment>
+<BeforeBlockId>238</BeforeBlockId>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="245" connector-kind="socket" connector-type="number" init-type="number" label="#" position-type="single"/>
+<BlockConnector con-block-id="246" connector-kind="socket" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="digital-low" id="246">
+<Location>
+<X>600</X>
+<Y>223</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="244" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="number" id="245">
+<Label>13</Label>
+<Location>
+<X>600</X>
+<Y>199</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="244" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="pin-write-digital" id="241">
+<Location>
+<X>313</X>
+<Y>131</Y>
+</Location>
+<Comment>
+<Text>si oui, allumer la DEL</Text>
+<Location>
+<X>701</X>
+<Y>123</Y>
+</Location>
+<BoxSize>
+<Width>161</Width>
+<Height>55</Height>
+</BoxSize>
+</Comment>
+<BeforeBlockId>238</BeforeBlockId>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="242" connector-kind="socket" connector-type="number" init-type="number" label="#" position-type="single"/>
+<BlockConnector con-block-id="243" connector-kind="socket" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="digital-high" id="243">
+<Location>
+<X>601</X>
+<Y>158</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="241" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="number" id="242">
+<Label>13</Label>
+<Location>
+<X>601</X>
+<Y>134</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="241" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="pin-read-digital" id="239">
+<Location>
+<X>316</X>
+<Y>102</Y>
+</Location>
+<Comment>
+<Text>teste si le bouton (entrée 7) est appuyé</Text>
+<Location>
+<X>601</X>
+<Y>27</Y>
+</Location>
+<BoxSize>
+<Width>208</Width>
+<Height>53</Height>
+</BoxSize>
+</Comment>
+<Plug>
+<BlockConnector con-block-id="238" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Plug>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="240" connector-kind="socket" connector-type="number" init-type="number" label="#" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="number" id="240">
+<Label>7</Label>
+<Location>
+<X>624</X>
+<Y>102</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="239" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+</PageBlocks>
+</Page>
+</Pages>
+</cb:CODEBLOCKS>

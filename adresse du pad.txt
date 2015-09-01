@@ -1,0 +1,22 @@
+================================================ Adresse des PAD ================================================
+2eme séance avec les GJ
+https://bimestriel.framapad.org/p/Initiation_Arduino_GJ
+
+================================================== Site pour la veille ==========================================
+site de phisique avec des animations flash, et un tuto pour faire les annimations flash.
+http://physiquecollege.free.fr/troisieme.htm
+http://wiki.labaixbidouille.com/index.php?title=Accueil
+www.code.org
+
+
+===================================================== ArduiBlock ================================================
+blog pour l'électronique 3eme
+ explication : installation :  http://blog.crdp-versailles.fr/technoclergeot/index.php/post/29/02/2012/ArduBlock
+ lien pour récupérer les fichier :  http://blog.ardublock.com/engetting-started-ardublockzhardublock/ (en)
+ lien pour récupérer les fichier : http://www.semageek.com/arduino-presentation-et-traduction-en-francais-de-ardublock/ (fr)
+
+ 
+***************************************************** Exemples **************************************************
+http://blog.ardublock.com/2012/02/04/getting-started-with-arduino-in-ardublock-example-01/
+
+ 
